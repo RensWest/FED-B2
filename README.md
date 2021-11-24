@@ -73,7 +73,7 @@ Alle content toevoegen en de opdeling van de site ging heel goed. Ik had dit red
  een tijd moeite met de grootte van mijn afbeeldingen in mijn "li" items. Deze werden maar niet groter, maar dit heb ik opgelost.
  Het positioneren van links over een foto heen lukt mijn niet omdat een flexbox geen "a" in een "a" ziet. Waardoor mijn link knop
  niet wordt opgenomen in de flexbox over de afbeelding heen.
- <img src="images/_Volumes_RENS_School_Jaar%202_Frontend%20Development_Nike%20site_index.html(iPhone X).png">
+ <img src="images/voortgangweek2.png" width="375px" alt="Screenshot voortgang week 2.">
 
 
 ### Agenda voor meeting
