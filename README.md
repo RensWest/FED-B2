@@ -73,10 +73,13 @@ hier de naam van de pagina
 ## Voortgang 1 (week 2)
 
 <details open>
-<summary>uitwerken voor 1e voortgang</summary>
+<summary>Ik heb alle content van mijn eerste pagina in HTML gezet en ik heb de CSS voor +-80% af.</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Alle content toevoegen en de opdeling van de site ging heel goed. Ik had dit redelijk snel klaar en het klopt ook. Wel had ik
+ een tijd moeite met de grootte van mijn afbeeldingen in mijn "li" items. Deze werden maar niet groter, maar dit heb ik opgelost.
+ Het positioneren van links over een foto heen lukt mijn niet omdat een flexbox geen "a" in een "a" ziet. Waardoor mijn link knop
+ niet wordt opgenomen in de flexbox over de afbeelding heen.
 
 
 ### Agenda voor meeting
@@ -231,7 +234,7 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
+1. https://www.w3schools.com/tags/ref_pxtoemconversion.asp (omrekenen van PX en EM)
 2. bron 2
 3. ...
 
