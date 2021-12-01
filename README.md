@@ -104,10 +104,14 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Voortgang 2 (week 3)
 
 <details>
-<summary>uitwerken voor 2e voortgang</summary>
+<summary>Begonnen aan 2e pagina en hamburgermenu</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik had moeite met het maken van mijn hamburger menu. Hier had ik wat oefening en tijd voor nodig om hem uiteindelijk werkend te krijgen. 
+ Hopelijk heb ik gebruik gemaakt van de juiste html.
+ 
+ Ik ben begonnen aan mijn 2e pagina. Omdat ik wil oefenen met grid heb ik gekozen voor de meest verkochte heren producten pagina. Alleen
+ nu kom ik met de css van de eerste pagina in de knoop. Hier moet ik dingen over vragen.
 
 
 ### Agenda voor meeting
@@ -230,7 +234,7 @@ hier screenshot(s) van je eindresultaat
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. https://www.w3schools.com/tags/ref_pxtoemconversion.asp (omrekenen van PX en EM)
-2. bron 2
+2. https://www.youtube.com/watch?v=qoULWGhiC0w (hamburger menu)
 3. ...
 
 </details>
