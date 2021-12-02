@@ -37,9 +37,6 @@ header svg {
 
 header a svg {
     margin-left: 1em;
-    height: 1.875em; 
-    width: 3.75em;
-    fill: #111;
 }
 
 header button {
@@ -66,16 +63,75 @@ header section button svg {
     height: 1.8em;
 }
 
+.hamburger{
+    padding: .5em;
+    border: none;
+    margin-left: 1em;
+    background-color: transparent;
+}
+
+.container{
+    float: left;
+    height: 25px;
+    width: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 15em;
+    background-color: white;
+    
+    padding: 40px 36px 150px 36px;
+    transform: translateX(19.5em);
+    transition: .5s;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.menu li {
+    list-style: none;
+    color: black;
+}
+
+.showmenu{
+    transform: translateX(0);
+}
+
+.menu li:last-child{
+    border-bottom: none;
+}
+
+.menu li:first-child{
+    font-weight: bold;
+}
+
+.menu li a{
+    line-height: 1.666667;
+    font-weight: 500;
+    font-family: var(--main-font);
+    font-size: 1.5em;
+    color: var(--footer-color);
+}
+
+.menu p {
+    font-size: 1.25em;
+    color: var(--text-color-secondary);
+}
+
 main {
     margin: 1em;
     font-family: var(--main-font);
     font-size: 1em;
     line-height: 1.5;
     color: var(--text-color-primary);
-}
-
-section {
-    margin-bottom: 7em;
 }
 
 h1 {
@@ -121,8 +177,12 @@ li p {
     margin: 0;
 }
 
+/*                     */
+/* STYLING HOOFDPAGINA */
+/*                     */
+
 /* Product slider grijs */
-li p:first-of-type {
+.hoofdpagina li p:first-of-type {
     font-size: 1em;
     color: var(--text-color-secondary);
 }
@@ -136,10 +196,14 @@ a svg {
     align-self: center;
 }
 
+.hoofdpagina section {
+    margin-bottom: 7em;
+}
+
 /* Knop styling */
-main section:nth-of-type(3) span,
-main section:nth-of-type(6) span,
-main section:nth-of-type(8) a {
+.hoofdpagina main section:nth-of-type(3) span,
+.hoofdpagina main section:nth-of-type(6) span,
+.hoofdpagina main section:nth-of-type(8) a {
     background-color: var(--wit);
     padding: .5em 1.75em .5em 1.75em;
     color: var(--zwart);
@@ -152,9 +216,9 @@ main section:nth-of-type(8) a {
     margin-left: 1.5em;
 }
 
-main section:first-of-type a,
-main section:nth-of-type(5) a,
-main section:nth-of-type(7) span {
+.hoofdpagina main section:first-of-type a,
+.hoofdpagina main section:nth-of-type(5) a,
+.hoofdpagina main section:nth-of-type(7) span {
     background-color: var(--text-color-primary);
     padding: .5em 1.75em .5em 1.75em;
     color: var(--wit);
@@ -165,42 +229,42 @@ main section:nth-of-type(7) span {
 }
 
 /* Nike titel */
-main section:first-of-type h1,
-main section:nth-of-type(5) h1:nth-of-type(2) {
+.hoofdpagina main section:first-of-type h1,
+.hoofdpagina main section:nth-of-type(5) h1:nth-of-type(2) {
     font-family: futura;
     font-size: 3em;
     line-height: 1;
 }
 
 /* Mis het niet P */
-main section:nth-of-type(5) p:first-of-type {
+.hoofdpagina main section:nth-of-type(5) p:first-of-type {
     margin-bottom: 0;
 }
 
 /* Producten slider */
-main section:nth-of-type(2) ul,
-main section:nth-of-type(4) ul {
+.hoofdpagina main section:nth-of-type(2) ul,
+.hoofdpagina main section:nth-of-type(4) ul {
     display: flex;
     flex-direction: row;
     overflow: scroll;
     margin-right: -1em;
 }
 
-main section:nth-of-type(2) li,
-main section:nth-of-type(4) li {
+.hoofdpagina main section:nth-of-type(2) li,
+.hoofdpagina main section:nth-of-type(4) li {
     width: 300px;
     margin-right: 1em;
 }
 
-main section:nth-of-type(2) img,
-main section:nth-of-type(4) img {
+.hoofdpagina main section:nth-of-type(2) img,
+.hoofdpagina main section:nth-of-type(4) img {
     width: 300px;
     max-width: none;
 }
 
 
 /* Warme sets en meer voor jou (tekst en span over foto) */
-main section:nth-of-type(3) a:first-of-type {
+.hoofdpagina main section:nth-of-type(3) a:first-of-type {
     background-image: url("https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/w_335,c_limit/d7c4ec5d-51bd-4c45-b251-612f67d6152f/offici%C3%ABle-nike-website.jpg");
     background-size: cover;
     display: flex;
@@ -210,7 +274,7 @@ main section:nth-of-type(3) a:first-of-type {
     margin-bottom: 1em;
 }
 
-main section:nth-of-type(3) a:nth-of-type(2) {
+.hoofdpagina main section:nth-of-type(3) a:nth-of-type(2) {
     background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_400,c_limit/ddd8f12a-f72f-4823-8377-9dd3e027c274/nike-just-do-it.jpg");
     background-size: cover;
     display: flex;
@@ -219,7 +283,7 @@ main section:nth-of-type(3) a:nth-of-type(2) {
     justify-content: flex-end;
 }
 
-main section:nth-of-type(6) a:first-of-type {
+.hoofdpagina main section:nth-of-type(6) a:first-of-type {
     background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_319,c_limit/e7de83c3-93d4-4ab8-abe1-140a87b7fbb9/nike-just-do-it.jpg");
     background-size: cover;
     display: flex;
@@ -229,7 +293,7 @@ main section:nth-of-type(6) a:first-of-type {
     margin-bottom: 1em;
 }
 
-main section:nth-of-type(6) a:nth-of-type(2) {
+.hoofdpagina main section:nth-of-type(6) a:nth-of-type(2) {
     background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_319,c_limit/b2b86594-42c4-4fb8-a99f-acc0cfdbcf18/nike-just-do-it.jpg");
     background-size: cover;
     display: flex;
@@ -238,7 +302,7 @@ main section:nth-of-type(6) a:nth-of-type(2) {
     justify-content: flex-end;
 }
 
-main section:nth-of-type(3) h3,
+.hoofdpagina main section:nth-of-type(3) h3,
 section:nth-of-type(6) h3 {
     margin-left: 1.5em;
     max-width: 55%;
@@ -246,7 +310,7 @@ section:nth-of-type(6) h3 {
 }
 
 /* Join us styling */
-main section:nth-of-type(7) a {
+.hoofdpagina main section:nth-of-type(7) a {
     background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_319,c_limit/0a8da1ce-c0a7-4622-bbb9-0c73b0c4c28b/nike-just-do-it.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -256,7 +320,7 @@ main section:nth-of-type(7) a {
 }
 
 
-main section:nth-of-type(7) a h1 {
+.hoofdpagina main section:nth-of-type(7) a h1 {
     color: var(--text-color-primary);
     font-family: futura;
     font-size: 3em;
@@ -267,49 +331,56 @@ main section:nth-of-type(7) a h1 {
 
 
 
-main section:nth-of-type(7) h3 {
+.hoofdpagina main section:nth-of-type(7) h3 {
     color: var(--text-color-primary);
     font-weight: normal;
     margin-left: 1em;
     margin-bottom: 1em;
 }
 
-main section:nth-of-type(7) span {
+.hoofdpagina main section:nth-of-type(7) span {
     margin-bottom: 2.5em;
     margin-left: 1em;
     margin-right: auto;
 }
 
 /* Meer Nike styling */
-main section:nth-of-type(8) ul {
+.hoofdpagina main section:nth-of-type(8) ul {
     display: flex;
     overflow: scroll;
     margin-right: -1em;
 }
 
-main section:nth-of-type(8) li {
+.hoofdpagina main section:nth-of-type(8) li {
     margin-right: 1em;
 }
 
-main section:nth-of-type(8) img {
+.hoofdpagina main section:nth-of-type(8) img {
     width: 19em;
     max-width: none;
 }
 
 /* Bottom (9) */
-main section:nth-of-type(9) {
+.hoofdpagina main section:nth-of-type(9) {
     display: flex;
     flex-direction: column;
     margin-bottom: 2em;
 }
 
-main section:nth-of-type(9) a {
+.hoofdpagina main section:nth-of-type(9) a {
     margin-bottom: 1.5em;
     color: var(--footer-color);
     font-weight: 500;
 }
 
-/* Footer styling */
+/*                     */
+/* STYLING HERENPAGINA */
+/*                     */
+
+
+/*                     */
+/* FOOTER STYLING      */
+/*                     */
 footer {
     background-color: var(--footer-color);
     font-family: var(--main-font);
@@ -353,71 +424,6 @@ footer section:nth-of-type(3) {
 footer section:nth-of-type(3) svg {
     fill: #7e7e7e;
     margin-right: 1em;
-    width: 1.875em;
-    height: 1.875em;
-}
-
-.hamburger{
-    padding: .5em;
-    border: none;
-    margin-left: 1em;
-    background-color: transparent;
-}
-
-.container{
-    float: left;
-    height: 25px;
-    width: 40px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-}
-
-.menu{
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 15em;
-    height: 100vh;
-    background-color: white;
-    padding: 40px 36px 150px 36px;
-    transform: translateX(19.5em);
-    transition: .5s;
-}
-
-.menu li {
-    list-style: none;
-    color: black;
-}
-
-.menu path {;
-    height: 10px;
-}
-
-.showmenu{
-    transform: translateX(0);
-}
-
-.menu li:last-child{
-    border-bottom: none;
-}
-
-.menu li:first-child{
-    font-weight: bold;
-}
-
-.menu li a{
-    line-height: 1.666667;
-    font-weight: 500;
-    font-family: var(--main-font);
-    font-size: 1.5em;
-    color: var(--footer-color);
-}
-
-.menu p {
-    font-size: 1.25em;
-    color: var(--text-color-secondary);
+    width: 2.875em;
+    height: 2.875em;
 }
