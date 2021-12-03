@@ -22,6 +22,8 @@ html {
     --margin-bottom: 2.25em;
 }
 
+
+/* header styling */
 header nav{
     position: sticky; top: 0;
     height: 4.25em;
@@ -63,6 +65,7 @@ header section button svg {
     height: 1.8em;
 }
 
+/* Hamburger menu styling */
 .hamburger{
     padding: .5em;
     border: none;
@@ -88,6 +91,8 @@ header section button svg {
     top: 0;
     width: 15em;
     background-color: white;
+    display: flex;
+    flex-direction: column;
     
     padding: 40px 36px 150px 36px;
     transform: translateX(19.5em);
@@ -96,9 +101,22 @@ header section button svg {
     overflow: scroll;
 }
 
-.menu li {
-    list-style: none;
-    color: black;
+.menu button {
+    margin-left: auto;
+    padding: 0;
+    width: 27px;
+    height: 27px;
+}
+
+.menu svg {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.menu section:first-of-type li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .showmenu{
@@ -113,7 +131,18 @@ header section button svg {
     font-weight: bold;
 }
 
-.menu li a{
+.menu article p {
+    margin-top: 3em;
+    font-size: 1.25em;
+    color: var(--text-color-secondary);
+    font-family: var(--main-font);
+}
+
+.menu article a {
+    color: var(--footer-color);
+}
+
+.menu li a p{
     line-height: 1.666667;
     font-weight: 500;
     font-family: var(--main-font);
@@ -121,11 +150,42 @@ header section button svg {
     color: var(--footer-color);
 }
 
-.menu p {
-    font-size: 1.25em;
-    color: var(--text-color-secondary);
+.menu section {
+    margin: 1em 0 1em 0;
 }
 
+.menu section:nth-of-type(3) a:first-of-type{
+    background-color: var(--footer-color);
+    padding: .5em 1em .5em 1em;
+    color: var(--wit);
+    border-radius: 1em;
+    line-height: var(--button-line-height);
+    text-decoration: none;
+    margin-right: .5em;
+    font-family: var(--main-font);
+}
+
+.menu section:nth-of-type(2) a, .menu section:nth-of-type(4) a {
+    display: flex;
+    align-items: center;
+}
+
+.menu section:nth-of-type(2) svg, .menu section:nth-of-type(4) svg{
+    margin: 0 1em 0 0;
+}
+
+.menu section:nth-of-type(3) a:nth-of-type(2){
+    background-color: var(--wit);
+    padding: .5em 1em .5em 1em;
+    color: var(--footer-color);
+    border: 1px solid var(--text-color-secondary);
+    border-radius: 1em;
+    line-height: var(--button-line-height);
+    text-decoration: none;
+    font-family: var(--main-font);
+}
+
+/* algemene styling */
 main {
     margin: 1em;
     font-family: var(--main-font);
@@ -177,17 +237,6 @@ li p {
     margin: 0;
 }
 
-/*                     */
-/* STYLING HOOFDPAGINA */
-/*                     */
-
-/* Product slider grijs */
-.hoofdpagina li p:first-of-type {
-    font-size: 1em;
-    color: var(--text-color-secondary);
-}
-
-
 a {
     text-decoration: none;
 }
@@ -196,7 +245,17 @@ a svg {
     align-self: center;
 }
 
-.hoofdpagina section {
+/*                     */
+/* STYLING HOOFDPAGINA */
+/*                     */
+
+/* Product slider grijs */
+.hoofdpagina main li p:first-of-type {
+    font-size: 1em;
+    color: var(--text-color-secondary);
+}
+
+.hoofdpagina main section {
     margin-bottom: 7em;
 }
 
@@ -377,6 +436,97 @@ section:nth-of-type(6) h3 {
 /* STYLING HERENPAGINA */
 /*                     */
 
+/* Schoenen tops en t-shirts etc. */
+.herenpagina section:first-of-type ul{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    border-bottom: 1px solid var(--text-color-secondary);
+}
+
+.herenpagina section:first-of-type a {
+    padding: 0 1em 1em 1em;
+    white-space: nowrap;
+    color: var(--text-color-primary);
+    font-weight: 500;
+}
+
+.herenpagina section:first-of-type a:hover {
+    color: var(--text-color-secondary);
+}
+
+.herenpagina section:first-of-type a:first-of-type {
+    padding-left: 0;
+}
+
+.herenpagina ::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+/* resultaten + filter balk */
+.herenpagina section:nth-of-type(2) {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.herenpagina section:nth-of-type(2) button {
+    display: flex;
+    font-family: var(--main-font);
+    font-size: 1em;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2em;
+    width: 6em;
+    border: 1px solid var(--text-color-secondary);
+    border-radius: 1em;
+}
+
+/* Styling grid + inhoud */
+.herenpagina section:nth-of-type(3) {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1em;
+    margin-bottom: 5em;
+}
+
+.herenpagina h4 {
+    color: rgb(250, 84, 0);
+}
+
+.herenpagina h2 {
+    font-size: 0.875em;
+    font-weight: 450;
+}
+
+.herenpagina p {
+    margin-bottom: 0;
+    font-size: 0.875em;
+}
+
+.herenpagina section:nth-of-type(3) p:first-of-type, .herenpagina p:nth-of-type(2) {
+    color: var(--text-color-secondary);
+}
+
+/* Gerelateerde categorieën */
+.herenpagina section:nth-of-type(4) ul{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+
+.herenpagina section:nth-of-type(4) a {
+    white-space: nowrap;
+    background-color: var(--wit);
+    padding: .5em;
+    color: var(--zwart);
+    border: 1px solid var(--text-color-secondary);
+    border-radius: 1em;
+    line-height: var(--button-line-height);
+    text-decoration: none;
+    margin-right: .5em;
+}
 
 /*                     */
 /* FOOTER STYLING      */
@@ -389,6 +539,7 @@ footer {
 
 footer section {
     margin-left: 1em;
+    margin-bottom: 7em;
 }
 
 footer p {
