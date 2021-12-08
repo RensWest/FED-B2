@@ -40,11 +40,11 @@ https://www.nike.com/nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/ssp1.png" width="375px" alt="Screenshot hoofdpagina Nike (small screen).">
+<img src="READMEIMG/www.nike.com_nl__cp=63928816257_search_%7Cnike%7C10582770917%7C103790628399%7Ce%7Cc%7CNL%7Cpure%7C452320346851&gclsrc=aw.ds&ds_rl=1252249&gclid=Cj0KCQiAkNiMBhCxARIsAIDDKNXu1uERx9uQPKI8eJqjxiz9ZZU43B_YChiORjCypl6IEtzGLnCMjS4aAnboEALw_wcB(iPh" width="375px" alt="Screenshot hoofdpagina Nike (small screen).">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/ssp2.png" width="375px" alt="Screenshot uitgelicht productpagina Nike (small screen).">
+<img src="READMEIMG/www.nike.com_ca_w_mens-best-76m50znik1.png" width="375px" alt="Screenshot uitgelicht productpagina Nike (small screen).">
  
 </details>
 
@@ -76,24 +76,11 @@ Alle content toevoegen en de opdeling van de site ging heel goed. Ik had dit red
  
  <img src="images/voortgangweek2.png" width="375px" alt="Screenshot voortgang week 2.">
 
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Ik was ziek en heb dit voortgangsgesprek niet gehad. Wel heb ik in de les mijn werk laten zien. Mijn eerste pagina zag er al goed
+ uit en er was vertrouwen dat de rest goed zou komen.
 
 </details>
 
@@ -114,23 +101,12 @@ Ik had moeite met het maken van mijn hamburger menu. Hier had ik wat oefening en
  nu kom ik met de css van de eerste pagina in de knoop. Hier moet ik dingen over vragen.
 
 
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik was al goed op weg en had de basis al goed staan
+- Ik moest nog wat HTML en CSS foutjes verbeteren
+- Verder gaan met Surface plane en Responsive
 
 </details>
 
