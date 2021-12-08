@@ -155,8 +155,13 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb mijn 2 pagina's "af". De HTML en CSS staan. Ik heb geprobeerd om de site zo responsive mogelijk te maken en zoveel mogelijk dingen toe
+ te voegen aan de surface plane.
 
+ 
+ <img src="READMEIMG/indexhtml.png" width="375px" alt="Screenshot index.html">
+ <img src="READMEIMG/herenhtml.png" width="375px" alt="Screenshot heren.html">
+ 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
