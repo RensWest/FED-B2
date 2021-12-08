@@ -40,7 +40,7 @@ https://www.nike.com/nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="READMEIMG/www.nike.com_nl__cp=63928816257_search_%7Cnike%7C10582770917%7C103790628399%7Ce%7Cc%7CNL%7Cpure%7C452320346851&gclsrc=aw.ds&ds_rl=1252249&gclid=Cj0KCQiAkNiMBhCxARIsAIDDKNXu1uERx9uQPKI8eJqjxiz9ZZU43B_YChiORjCypl6IEtzGLnCMjS4aAnboEALw_wcB(iPh" width="375px" alt="Screenshot hoofdpagina Nike (small screen).">
+<img src="READMEIMG/www.nike.com_nl__cp=63928816257_search_%7Cnike%7C10582770917%7C103790628399%7Ce%7Cc%7CNL%7Cpure%7C452320346851&gclsrc=aw.ds&ds_rl=1252249&gclid=Cj0KCQiAkNiMBhCxARIsAIDDKNXu1uERx9uQPKI8eJqjxiz9ZZU43B_YChiORjCypl6IEtzGLnCMjS4aAnboEALw_wcB(iPh.png" width="375px" alt="Screenshot hoofdpagina Nike (small screen).">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
@@ -56,7 +56,7 @@ hier de naam van de pagina
 <summary>Deze week ben ik begonnen met mijn breakdown van de homepage en heb ik een start gemaakt met de opzet van de homepage in Html.</summary>
 
 ### de hele pagina: 
-<img src="images/Homepage-breakdown.png" width="375px" alt="breakdown van de hele pagina">
+<img src="READMEIMG/Homepage-breakdown.png" width="375px" alt="breakdown van de hele pagina">
 </details>
 
 
@@ -73,8 +73,6 @@ Alle content toevoegen en de opdeling van de site ging heel goed. Ik had dit red
  een tijd moeite met de grootte van mijn afbeeldingen in mijn "li" items. Deze werden maar niet groter, maar dit heb ik opgelost.
  Het positioneren van links over een foto heen lukt mijn niet omdat een flexbox geen "a" in een "a" ziet. Waardoor mijn link knop
  niet wordt opgenomen in de flexbox over de afbeelding heen.
- 
- <img src="images/voortgangweek2.png" width="375px" alt="Screenshot voortgang week 2.">
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
