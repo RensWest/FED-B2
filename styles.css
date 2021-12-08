@@ -195,24 +195,30 @@ main {
 }
 
 h1 {
+    font-family: futura;
+    font-size: 3em;
+    line-height: 1;
+}
+
+h2 {
     font-size: 1.5em;
     font-weight: normal;
     font-family: var(--main-font);
     margin-bottom: 0.75em;
 }
 
-h2 {
+h3 {
     font-size: 1em;
     color: var(--footer-color);
 }
 
-h3 {
+h4 {
     color: var(--wit);
 }
 
-h4 {
+h5 {
     color: var(--text-color-gold);
-    font-size: var(1em);
+    font-size: 1em;
     font-weight: normal;
 }
 
@@ -287,9 +293,19 @@ a svg {
     font-weight: var(--button-font-weight);
 }
 
+.hoofdpagina main section:nth-of-type(3) span:hover,
+.hoofdpagina main section:nth-of-type(6) span:hover,
+.hoofdpagina main section:nth-of-type(8) a:hover {
+    background-color: #d9d9d9;
+}
+
+.hoofdpagina main section:first-of-type a:hover,
+.hoofdpagina main section:nth-of-type(5) a:hover,
+.hoofdpagina main section:nth-of-type(7) span:hover {
+    background-color: rgb(0, 0, 0, 0.8)
+}
 /* Nike titel */
-.hoofdpagina main section:first-of-type h1,
-.hoofdpagina main section:nth-of-type(5) h1:nth-of-type(2) {
+.hoofdpagina main section:nth-of-type(5) h3{
     font-family: futura;
     font-size: 3em;
     line-height: 1;
@@ -298,6 +314,10 @@ a svg {
 /* Mis het niet P */
 .hoofdpagina main section:nth-of-type(5) p:first-of-type {
     margin-bottom: 0;
+}
+
+.hoofdpagina main section:nth-of-type(5) img {
+    justify-self: center;
 }
 
 /* Producten slider */
@@ -361,7 +381,7 @@ a svg {
     justify-content: flex-end;
 }
 
-.hoofdpagina main section:nth-of-type(3) h3,
+.hoofdpagina main section:nth-of-type(3) h4,
 section:nth-of-type(6) h3 {
     margin-left: 1.5em;
     max-width: 55%;
@@ -379,16 +399,13 @@ section:nth-of-type(6) h3 {
 }
 
 
-.hoofdpagina main section:nth-of-type(7) a h1 {
+.hoofdpagina main section:nth-of-type(7) a p {
     color: var(--text-color-primary);
     font-family: futura;
     font-size: 3em;
     line-height: 1;
-    margin-left: 16px;
-    margin-top: 1em;
+    margin: 1em 0 0 .3em;
 }
-
-
 
 .hoofdpagina main section:nth-of-type(7) h3 {
     color: var(--text-color-primary);
@@ -408,15 +425,24 @@ section:nth-of-type(6) h3 {
     display: flex;
     overflow: scroll;
     margin-right: -1em;
+    position: relative;
 }
 
 .hoofdpagina main section:nth-of-type(8) li {
+    position: relative;
     margin-right: 1em;
 }
 
 .hoofdpagina main section:nth-of-type(8) img {
     width: 19em;
     max-width: none;
+}
+
+.hoofdpagina main section:nth-of-type(8) a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
 }
 
 /* Bottom (9) */
@@ -486,7 +512,7 @@ section:nth-of-type(6) h3 {
 /* Styling grid + inhoud */
 .herenpagina section:nth-of-type(3) {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     gap: 1em;
     margin-bottom: 5em;
 }
@@ -516,6 +542,10 @@ section:nth-of-type(6) h3 {
     overflow: scroll;
 }
 
+.herenpagina section:nth-of-type(4) li {
+    padding: 1em 0 1em 0;
+}
+
 .herenpagina section:nth-of-type(4) a {
     white-space: nowrap;
     background-color: var(--wit);
@@ -543,8 +573,9 @@ footer section {
 }
 
 footer p {
-    font-size: 0.75em;
+    font-size: 1em;
     color: #7e7e7e;
+    margin-bottom: 0;
 }
 
 footer ul {
@@ -557,6 +588,14 @@ footer li {
 
 footer a {
     color: white;
+}
+
+footer section {
+    margin-bottom: 4em;
+}
+
+footer section:nth-of-type(1) {
+    border-bottom: 1px solid var(--text-color-secondary);
 }
 
 footer section:nth-of-type(2) {
@@ -577,4 +616,58 @@ footer section:nth-of-type(3) svg {
     margin-right: 1em;
     width: 2.875em;
     height: 2.875em;
+}
+
+footer section:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 2em;
+}
+
+
+/* !!!!!!!!! TEST !!!!!!!! */
+@media screen and (min-width: 640px) {   
+    /* Algemeen (Footer items naast elkaar) */
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer section {
+        margin-top: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    footer section ul {
+        padding-top: 0;
+    }
+
+    footer section:nth-of-type(1) {
+        border-bottom: 0;
+    }
+
+    /* Hoofdpagina (foto styling/prijs/bottom) */
+    .hoofdpagina section:nth-of-type(6) {
+        display: flex;
+    }
+
+    .hoofdpagina section:nth-of-type(6) a {
+        min-width: 17.8125em;
+    }
+}
+
+@media screen and (min-width: 960px){
+    /* Herenpagina (grid 3 naast elkaar) */
+    .herenpagina section:nth-of-type(3) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    /* Algemeen (Header items ipv hamburger menu) */
+
+
+    /* Herenpagina (filter naast grid)*/
+    
 }
