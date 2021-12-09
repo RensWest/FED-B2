@@ -1,10 +1,6 @@
 @font-face {
-    font-family: 'Futura';
-    src: url('./fonts/Futura-CondensedExtraBold.woff') format('woff2'),
-        url('./fonts/Futura-CondensedExtraBold.woff2') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+    font-family: 'futura';
+    src: url('./fonts/Futura\ Condensed\ Extra\ Bold.otf');
 }
 
 *,
@@ -35,10 +31,6 @@ header nav{
     justify-content: space-between;
     align-items: center;
     background-color: white;
-}
-
-.herenpagina img {
-    max-width: 100%;
 }
 
 header svg {
@@ -193,22 +185,6 @@ header section button svg {
     font-family: var(--main-font);
 }
 
-nav section {
-    display: flex;
-}
-
-nav section a {
-    align-self: center;
-}
-
-.hamburger {
-    align-self: center;
-}
-
-.hamburger svg {
-    margin-top: 0;
-}
-
 /* algemene styling */
 main {
     margin: 1em;
@@ -275,25 +251,7 @@ a svg {
 /* STYLING HOOFDPAGINA */
 /*                     */
 
-.hoofdpagina img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Eerste foto en parris goebel */
-.hoofdpagina main section:first-of-type img {
-    max-width: 100%;
-    object-fit: cover;
-    height: 70vh;
-}
-
-.hoofdpagina main section:nth-of-type(5) img {
-    max-width: 100%;
-}
-
 /* Product slider grijs */
-
 .hoofdpagina main li p:first-of-type {
     font-size: 1em;
     color: var(--text-color-secondary);
@@ -352,6 +310,10 @@ a svg {
 /* Mis het niet P */
 .hoofdpagina main section:nth-of-type(5) p:first-of-type {
     margin-bottom: 0;
+}
+
+.hoofdpagina main section:nth-of-type(5) img {
+    justify-self: center;
 }
 
 /* Producten slider */
@@ -465,6 +427,11 @@ section:nth-of-type(6) h3 {
 .hoofdpagina main section:nth-of-type(8) li {
     position: relative;
     margin-right: 1em;
+}
+
+.hoofdpagina main section:nth-of-type(8) img {
+    width: 19em;
+    max-width: none;
 }
 
 .hoofdpagina main section:nth-of-type(8) a {
@@ -654,12 +621,6 @@ footer section:last-of-type {
 
 
 /* !!!!!!!!! TEST !!!!!!!! */
-@media screen and (max-width: 640px) {
-    .hoofdpagina main section:nth-of-type(8) img {
-        width: 19em;
-    }
-}
-
 @media screen and (min-width: 640px) {   
     /* Algemeen (Footer items naast elkaar) */
     footer {
@@ -684,21 +645,10 @@ footer section:last-of-type {
     /* Hoofdpagina (foto styling/prijs/bottom) */
     .hoofdpagina section:nth-of-type(6) {
         display: flex;
-        flex-wrap: wrap;
-        gap: 0 1em;
-    }
-
-    .hoofdpagina section:nth-of-type(6) h2 {
-        width: 100%;
     }
 
     .hoofdpagina section:nth-of-type(6) a {
         min-width: 17.8125em;
-        flex: 1;
-    }
-
-    .hoofdpagina main section:nth-of-type(5) img {
-        width: 50vh;
     }
 }
 
@@ -708,12 +658,6 @@ footer section:last-of-type {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-
-    .hoofdpagina main section:nth-of-type(7) a {
-        background-image: url("https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_946,c_limit/72f12336-822e-4625-9271-7192ef368b0b/offici%C3%ABle-nike-website.jpg");
-        height: 12.5em;
-    }
-    
 }
 
 @media screen and (min-width: 1025px){
