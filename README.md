@@ -119,29 +119,27 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+Focus state toevoegen zodat het ook zichtbaar is voor slechtziende
+Menu scrollt niet mee met tab
+Menu gaat niet terug naar kruisje maar gewoon verder op de pagina
+
 
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
+Focus state toevoegen zodat het ook zichtbaar is voor slechtziende. Momenteel is het een dunne blauwe border. Dit moet duidelijker worden.
+ <img src="READMEIMG/toegankelijkheid1.png" width="375px" alt="breakdown van de hele pagina">
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+ Dit kan worden opgelost door in CSS een focus state toe te voegen die duidelijker is voor iedereen.
 
 
 #### Titel tweede bevinding. 
 Hier korte omschrijving (met indien nodig een afbeelding)
+Menu gaat niet terug naar kruisje maar gewoon verder op de pagina. 
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Geen idee hoe dit moet. Het laatste menu item zou weer terug moeten springen naar het kruisje zodat je in een soort loop zit binnen het menu tot je
+zelf klikt dat je eruit wilt.
 
 </details>
 
