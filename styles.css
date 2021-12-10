@@ -37,10 +37,6 @@ header nav{
     background-color: white;
 }
 
-.herenpagina img {
-    max-width: 100%;
-}
-
 header svg {
     cursor: pointer;
 }
@@ -50,16 +46,9 @@ header a svg {
 }
 
 header button {
-    padding: .5em;
     border: none;
     margin-left: 1em;
     background-color: transparent;
-}
-
-header section {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: 1em;
 }
 
 header section svg {
@@ -75,9 +64,8 @@ header section button svg {
 
 /* Hamburger menu styling */
 .hamburger{
-    padding: .5em;
     border: none;
-    margin-left: 1em;
+    margin-right: 1em;
     background-color: transparent;
 }
 
@@ -102,7 +90,7 @@ header section button svg {
     display: flex;
     flex-direction: column;
     
-    padding: 40px 36px 150px 36px;
+    padding: 2em 1em 2em 2.5em;
     transform: translateX(19.5em);
     transition: .5s;
     height: 100vh;
@@ -119,6 +107,10 @@ header section button svg {
 .menu svg {
     margin-left: auto;
     margin-right: 0;
+}
+
+.menu section:first-of-type {
+    padding-bottom: 2em;
 }
 
 .menu section:first-of-type li a{
@@ -140,7 +132,7 @@ header section button svg {
 }
 
 .menu article p {
-    margin-top: 3em;
+    margin-top: 2em;
     font-size: 1.25em;
     color: var(--text-color-secondary);
     font-family: var(--main-font);
@@ -158,8 +150,9 @@ header section button svg {
     color: var(--footer-color);
 }
 
-.menu section {
-    margin: 1em 0 1em 0;
+.menu section:last-of-type {
+    padding-bottom: 2em;
+    padding-top: 2em;
 }
 
 .menu section:nth-of-type(3) a:first-of-type{
@@ -193,11 +186,11 @@ header section button svg {
     font-family: var(--main-font);
 }
 
-nav section {
+.topicons {
     display: flex;
 }
 
-nav section a {
+.topicons a {
     align-self: center;
 }
 
@@ -206,7 +199,8 @@ nav section a {
 }
 
 .hamburger svg {
-    margin-top: 0;
+    margin: 0;
+    width: 25px;
 }
 
 /* algemene styling */
@@ -275,7 +269,7 @@ a svg {
 /* STYLING HOOFDPAGINA */
 /*                     */
 
-.hoofdpagina img {
+.hoofdpagina main img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -538,12 +532,20 @@ section:nth-of-type(6) h3 {
     border-radius: 1em;
 }
 
+.herenpagina section:first-of-type li {
+    padding: 1em 0 1em 0;
+}
+
 /* Styling grid + inhoud */
 .herenpagina section:nth-of-type(3) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
     margin-bottom: 5em;
+}
+
+.herenpagina img {
+    max-width: 100%;
 }
 
 .herenpagina h4 {
@@ -677,22 +679,37 @@ footer section:last-of-type {
         padding-top: 0;
     }
 
-    footer section:nth-of-type(1) {
+    footer section:first-of-type {
         border-bottom: 0;
     }
 
     /* Hoofdpagina (foto styling/prijs/bottom) */
-    .hoofdpagina section:nth-of-type(6) {
+    .hoofdpagina main section:nth-of-type(3) {
         display: flex;
         flex-wrap: wrap;
         gap: 0 1em;
     }
 
-    .hoofdpagina section:nth-of-type(6) h2 {
+    .hoofdpagina main section:nth-of-type(3) h2 {
         width: 100%;
     }
 
-    .hoofdpagina section:nth-of-type(6) a {
+    .hoofdpagina main section:nth-of-type(3) a {
+        min-width: 17.8125em;
+        flex: 1;
+    }
+
+    .hoofdpagina main section:nth-of-type(6) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0 1em;
+    }
+
+    .hoofdpagina main section:nth-of-type(6) h2 {
+        width: 100%;
+    }
+
+    .hoofdpagina main section:nth-of-type(6) a {
         min-width: 17.8125em;
         flex: 1;
     }
