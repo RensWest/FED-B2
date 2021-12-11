@@ -181,6 +181,10 @@ Ik ben tevreden over mijn website. Alle content staat op de pagina en is op mobi
  - Filter links naast grid op herenpagina wanneer de pagina groot genoeg is.
  - Navbar responsive maken van hamburger naar los in de header.
  - Blur op achtergrond wanneer het hamburger menu is geopend.
+ 
+ Ik heb erg veel geleerd bij Frontend development en dit heeft zeker mijn interesse hierin vergroot. Voor dit vak had ik naast de vakken op school nog
+ 0 ervaring met coderen en hoe eem website in elkaar zit. Ik ben de uitdaging aangegaan om voor de rode piste te kiezen omdat ik zoveel mogelijk wilde
+ leren en ik ben tevreden wat ik in deze tijd heb geleerd en neergezet.
 
 ### Screenshot(s)
 
