@@ -504,6 +504,10 @@ section:nth-of-type(6) h3 {
     color: var(--text-color-secondary);
 }
 
+.herenpagina section:first-of-type a:active {
+    color: var(--text-color-secondary);
+}
+
 .herenpagina section:first-of-type a:first-of-type {
     padding-left: 0;
 }
@@ -518,6 +522,7 @@ section:nth-of-type(6) h3 {
     display: flex;
     justify-content: space-between;
     margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .herenpagina section:nth-of-type(2) button {
@@ -667,12 +672,11 @@ footer section:last-of-type {
     footer {
         display: flex;
         justify-content: space-between;
+        padding: 0 5em 0 5em;
     }
 
     footer section {
         margin-top: 1em;
-        margin-left: 1em;
-        margin-right: 1em;
     }
 
     footer section ul {
@@ -684,6 +688,27 @@ footer section:last-of-type {
     }
 
     /* Hoofdpagina (foto styling/prijs/bottom) */
+    .hoofdpagina h1, .hoofdpagina main section:first-of-type p {
+        text-align: center;
+    }
+
+    .hoofdpagina main section:first-of-type a {
+        display: block;
+        margin: 1em auto 0 auto;
+        width: 6.5em;
+        text-align: center;
+    }
+
+    .hoofdpagina main section:nth-of-type(5) h3, .hoofdpagina main section:nth-of-type(5) p {
+        text-align: center;
+    }
+
+    .hoofdpagina main section:nth-of-type(5) a {
+        display: block;
+        margin: 0 auto 0 auto;
+        width: 6.5em;
+    }
+    
     .hoofdpagina main section:nth-of-type(3) {
         display: flex;
         flex-wrap: wrap;
@@ -717,6 +742,14 @@ footer section:last-of-type {
     .hoofdpagina main section:nth-of-type(5) img {
         width: 50vh;
     }
+
+    .hoofdpagina main section:nth-of-type(9) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 5em;
+        margin-left: 5em;
+    }
 }
 
 @media screen and (min-width: 960px){
@@ -734,9 +767,9 @@ footer section:last-of-type {
 }
 
 @media screen and (min-width: 1025px){
-    /* Algemeen (Header items ipv hamburger menu) */
+    /* Algemeen (Header items ipv hamburger menu) DIT ZOU IK MET MEER TIJD NOG DOEN */
 
 
-    /* Herenpagina (filter naast grid)*/
+    /* Herenpagina (filter naast grid) DIT ZOU IK MET MEER TIJD NOG DOEN */
     
 }
