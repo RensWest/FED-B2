@@ -189,7 +189,8 @@ Ik ben tevreden over mijn website. Alle content staat op de pagina en is op mobi
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
-
+<img src="READMEIMG/homepageeind.png" width="375px" alt="Screenshot hoofdpagina Nike (small screen)">
+ <img src="READMEIMG/herenpageeind.png" width="375px" alt="Screenshot producten pagina Nike (small screen)">
  
 </details>
 
