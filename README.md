@@ -159,25 +159,6 @@ Ik heb mijn 2 pagina's "af". De HTML en CSS staan. Ik heb geprobeerd om de site 
  
  <img src="READMEIMG/indexhtml.png" width="375px" alt="Screenshot index.html">
  <img src="READMEIMG/herenhtml.png" width="375px" alt="Screenshot heren.html">
- 
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
 
 </details>
 
@@ -191,12 +172,21 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben tevreden over mijn website. Alle content staat op de pagina en is op mobiel hetzelfde als de echte nike site (*alleen dan met betere code*).
+ Ik heb een mooi begin gemaakt met het responsive maken van de site en ik heb enkele surface plane elementen kunnen toevoegen. Ik heb nog wel een lijstje
+ met dingen die mij nog niet waren gelukt om te doen die ik graag zou toe willen voegen als ik meer tijd zou hebben gehad. De belangrijkste dingen die 
+ ik nog zou willen toevoegen:
+ - Focus state verbeteren.
+ - Filter werkend maken.
+ - Filter links naast grid op herenpagina wanneer de pagina groot genoeg is.
+ - Navbar responsive maken van hamburger naar los in de header.
+ - Blur op achtergrond wanneer het hamburger menu is geopend.
 
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
 
+ 
 </details>
 
 
@@ -212,6 +202,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. https://www.w3schools.com/tags/ref_pxtoemconversion.asp (omrekenen van PX en EM)
 2. https://www.youtube.com/watch?v=qoULWGhiC0w (hamburger menu)
-3. ...
+3. Robert Spier + studentassistenten :D
 
 </details>
